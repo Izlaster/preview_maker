@@ -36,7 +36,16 @@
 5. Выполните команду: `docker-compose up -d`
 6. Приложение будет доступно по адресу: `http://localhost:8000`
 
-## Запуск для проверки
+
+## Запуск Docker-Compose
+1. Скачайте образ Docker: nablascom/cuda-pytorch
+2. В папке ./docker пропишите команду для запуска:
+
+    ```
+    docker-compose up -d 
+    ``` 
+
+## Запуск для проверки Django проекта
 ```
 python src/manage.py runserver
 ```
