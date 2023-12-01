@@ -33,7 +33,7 @@
 2. Склонируйте репозиторий: `git clone https://github.com/your-username/your-repo.git`
 3. Перейдите в директорию проекта: `cd your-repo`
 4. Создайте файл `.env` и установите необходимые переменные окружения (например, `DJANGO_SECRET_KEY`, `DEBUG`, и т.д.).
-5. Скачайте образ Docker: nablascom/cuda-pytorch
+5. Скачайте образ Docker: `nablascom/cuda-pytorch`
 6. Выполните команду: `docker-compose up -d`
 7. Приложение будет доступно по адресу: `http://localhost:8000`
 
