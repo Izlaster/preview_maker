@@ -14,7 +14,7 @@
    - Пример запроса:
      ```json
      {
-       "youtube_url": "https://www.youtube.com/watch?v=your_video_id"
+       "video_url": "https://www.youtube.com/watch?v=your_video_id"
      }
      ```
    - Пример ответа:
